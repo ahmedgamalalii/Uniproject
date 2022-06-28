@@ -1,0 +1,294 @@
+nav{
+     display:flex; 
+    justify-content:space-around;
+    align-items:center;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    background-color:rgba(90, 86, 86, 0.6);
+}
+.logo{
+    float:left;
+    font-weight:bold;
+    color:white;
+    text-transform:uppercase;
+    font-size:20px;
+
+
+}
+.logo h3{
+    display: inline-block;
+
+}
+.photo{
+    padding: 5px 0px;
+    width:80px;
+    float:left;
+}
+
+nav ul{
+    list-style:none;
+    float:right;
+    display:flex;
+    justify-content:space-around;
+    width:50%;
+}
+nav ul li a{
+    text-decoration: none;
+    padding:10px 20px;
+     color:white;
+     text-transform:uppercase;
+     letter-spacing:2px;
+     font-size:14px;
+}
+nav ul li a:hover{
+      background:rgba(0,0,0,0.7);
+      border-radius:6px;
+
+}
+
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background:url("image/tring.webp");
+    background-size: cover;
+}
+.form1{
+    margin-top: 80px;
+    width:300px;
+    padding: 40px;
+     margin: 55px auto !important;
+    background:rgba(0, 0, 0, 0.7);
+    text-align:center;
+    
+}   
+.form1 h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight:700;
+}
+.form1 input[type="text"],.form1 input[type="password"]{
+    border:0; 
+    display:block;
+    background:none ;
+    margin:20px auto;
+    text-align:center;
+    border:3px solid #3498db;
+    padding:14px 10px;
+    width:220px;
+    color:rgb(250, 245, 245);
+    border-radius:24px;
+    transition: 0.25s;
+}
+
+.form1 input[type="text"]:focus,.form1 input[type="password"]:focus{
+    width:270px;
+    border-color:yellow;
+}
+.form1 input[type="submit"],.form1 button[type="submit"]{
+    border:0;
+    display:block;
+    background: none;
+    margin:20px auto;
+   text-align:center;
+    border:3px solid yellow;
+    padding:14px 10px;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor:pointer;
+}
+.form1 input[type="submit"]:hover,.form1 button[type="submit"]:hover{
+    background:yellow;
+
+}
+.re{
+    color:white;
+}
+span{
+    color:white;
+}
+.form1 a{
+    color:rgb(105, 105, 179);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.show-btn{
+     border:0;
+    display:block;
+    background: none;
+     margin:20px auto; 
+   text-align:center;
+    border:3px solid yellow;
+    padding:14px 10px;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor:pointer; 
+
+}
+.show-btn:hover{
+    background:yellow;
+
+}
+
+
+ input[type="checkbox"]{ 
+     display: none; 
+ } 
+ #show:checked ~ .container{ /*the important line*/
+    display: block;
+} 
+
+.container{
+    display: none;
+    width: 450px;
+    padding: 50px;
+    border-radius: 4px;
+    background:rgba(0,0,0,0.92);
+    border: 1px solid rgb(89, 106, 202);
+
+}
+.container{
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.container .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    color: yellow;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+form{
+    margin: 20px;
+    background-color: black;
+}
+label{
+     display: block;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+
+.form input[type="text"],.form input[type="password"]{
+    border:0; 
+    display:block;
+    background:none ;
+    margin:20px auto;
+    text-align:center;
+    padding:14px 10px;
+    width:220px;
+    color:gray;
+    border-radius:24px;
+    transition: 0.25s;
+    
+}
+ .form input[type="text"]:focus,.form input[type="password"]:focus{
+     width:270px; 
+     border-color:yellow; 
+     outline-color: transparent !important;
+    outline: none !important;
+    
+} 
+
+.signup{
+    border:0;
+    display:block;
+    background: none;
+    margin:20px auto;
+    text-align:center;
+    border:3px solid yellow;
+    padding:14px 10px;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor:pointer;
+    text-decoration: none;
+}
+.signup:hover{
+    background-color: yellow;
+    
+}
+
+ a{
+    text-decoration: none;
+    color: #20002c;
+ }
+
+.test,.test:focus,.test:focus-visible{
+    outline-color: transparent !important;
+    outline: none !important;
+}
+
+
+
+
+.dropbtn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: -10px;
+
+    
+  }
+  
+  .dropbtn:hover, .dropbtn:focus { 
+    background:rgba(0,0,0,0.7);
+    border-radius:6px;  
+} 
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+     background-color: #f1f1f1; 
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
+

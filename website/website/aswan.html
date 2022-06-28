@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="aswan.css">
+<body>
+    <nav>
+        <div class="logo">
+           <img class="photo" src="image/logo5.png"><h3>Antiquities</h3> 
+        </div>
+        <ul class="menuitems">
+          <li><a href='home.html'>Home</a></li>
+          <li><a href='login.html'>SignIn</a></li>
+          <li><a href='feedback.html'>Feedback</a></li>
+          <li><a href='about.html'>About</a></li>  
+          <li id="reservation">
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">More items</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="contact1.html">Contact</a>
+                <a href="login.html">log out</a>
+            </li>
+         </div>              
+          </ul>
+    </nav>
+
+<h2 style="text-align:center">Welcome to Aswan</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="image/aswan13.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="image/aswan12.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="image/Lake.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="image/aswan20.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="image/aswan18.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="image/aswan17.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="image/aswan13.jpg" style="width:100%" onclick="currentSlide(1)" alt="Abu Simbel, site of two temples built by the Egyptian king Ramses II (reigned 1279–13 BCE), now located in Aswān muḥāfaẓah (governorate), southern Egypt. In ancient times the area was at the southern frontier of pharaonic Egypt, facing Nubia. The four colossal statues of Ramses in front of the main temple are spectacular examples of ancient Egyptian art. By means of a complex engineering feat in the 1960s, the temples were salvaged from the rising waters of the Nile River caused by erection of the Aswan High Dam. ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/aswan12.jpg" style="width:100%" onclick="currentSlide(2)" alt="This island is the oldest inhabited part of Aswan and served as the cult center of the ram headed god Khnum in ancient times.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/Lake.png" style="width:100%" onclick="currentSlide(3)" alt="Lake Nasser, also called Lake Nubia, reservoir on the Nile River, in Upper Egypt and northern Sudan.The lake was created by the construction of the High Dam. It flooded a huge expanse of land between Aswan and Abu Simbel, the homeland of the Nubians since before Pharaonic times.
+
+      About 800,000 Nubians were displaced, many settling in Aswan, and dozens of ancient temples had to be carefully relocated.
+      
+      The lake is named with ” Lake Nasser ” after the Egyptian President Gamal Abd El-Nasser Which was built the high dam during a period of wisdom for Egypt.
+      
+      Crocodiles thrive in Lake Nasser, its one of the most important tourist attractions in the Lake, Crocodiles hunting is prohibited by Egyptian Law.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/aswan20.jpg" style="width:100%" onclick="currentSlide(4)" alt="The name in Arabic means “Valley of the Lions”, referring to the avenue of sphinxes that leads up to this temple, which was built during the reign of Ramesses II. Though it was moved to its current location only in the1960’s, it was quickly forgotten and neglected.
+
+      By the time it became a frequent tourist attraction again in the 1990’s when cruises started running on Lake Nasser, it was partially filled with sand. The affect of its unkempt appearance and remote location is to give visitors the feeling that they are themselves discovering this temple for the first time.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/aswan18.jpg" style="width:100%" onclick="currentSlide(5)" alt="At first sight, the Mausoleum of the Agha Khan in Aswan may appear to you as an austere and isolated building, on the west bank of the Nile River. Inspired by the architecture of the Cairo Fatimids, the structure is recognizable by its elegance and by its special use of pink granite. It was built at the request of the begum, wife of the Aga Khan III who died in 1957.The begum &ndash; who died in 2000 &ndash; lived in the white villa below but closed the mausoleum to the public in 1997 to allow the deceased to rest in peace away from the bustle of the living. Nevertheless, the spot is more than worth a visit, be it for the serenity of the place or the amazing panoramas of the Nile and the villa below.  ">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="image/aswan17.jpg" style="width:100%" onclick="currentSlide(6)" alt="The Aswan Low Dam was constructed in 1898 under the direction of Sir William Willcocks. The dam was completed in 1902 and was raised twice between 1907 and 1912, followed by a further two between 1929 and 1933 to further alleviate the Nile from flooding.However, the Aswan Low Dam was not adequate to control the annual flooding, which gave rise to the idea of constructing a higher dam in 1952, with funding from the World Bank being sought in 1954.">
+    </div>
+  </div> 
+</div>
+
+<script src="aswan.js"></script>
+    
+</body>
+</html>

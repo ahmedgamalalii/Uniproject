@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+ <meta charset="UTF-8">   
+<title> Sign In Form </title>
+<link rel="stylesheet" type="text/css" href="login.css" /> 
+<link rel="shortcut icon" type="image/png" href="image/logo4.png"/>
+
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <img class="photo" src="image/logo5.png"><h3>Antiquities</h3> 
+        </div>
+        <ul class="menuitems">
+          <li><a href='home.html'>Home</a></li>
+          <li><a href='login.html'>SignIn</a></li>
+          <li><a href='feedback.html'>Feedback</a></li>
+          <li><a href='about.html'>About</a></li>  
+          <li id="reservation">
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">More items</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="contact1.html">Contact</a>
+                <a href="login.html">log out</a>
+            </li>
+         </div>              
+          </ul>
+    </nav>
+  
+ <form id="form2" class="form1"onsubmit="return validateForm()" method="post">
+    <h1>
+    Sign in
+   </h1>
+   <input class="test" type="text"id="fname"placeholder="Your email"> <br>
+   <input class="test" type="password"id="fmame"placeholder="Password"><br>
+   <input type="checkbox"id="RM"><span  class="re" >Remember me</span><br>
+   <a href="feedback.html"><input type="submit"value="Log in"id="sign in"></a>
+   <span>Not a member?!</span>
+   <input type="checkbox" id="show">
+   <label for="show" class="show-btn">Sign UP Now </label>
+    <div class="container">
+       <label for="show" class="close-btn" title="close">×</label>
+       <h1>Welcome</h1>
+        <form id="form2" class="form" action="#"onsubmit="return validateForm()" method="post">
+           <input id="fname" class="test" type="text"placeholder="First Name"> 
+           <input id="fname" class="test" type="text"placeholder="Last Name">
+            <input id="fname" class="test" type="text"class="text"placeholder="E-mail or Phone">  
+            <input id="fname" class="test" type="password"class="text"placeholder="Password"> 
+           <a href="feedback.html"><input type="submit"value="Done"class="signup"></a>
+       </form>
+   </div>  
+   </form> 
+
+
+<script src="login.js"></script>
+   
+
+
+
+
+</body>
+
+</html>
